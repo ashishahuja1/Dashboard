@@ -12,7 +12,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
 import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
-import { HighchartsChartModule} from 'highcharts-angular'
+import { HighchartsChartModule} from 'highcharts-angular';
+import { CardComponent } from './widgets/card/card.component'
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { HighchartsChartModule} from 'highcharts-angular'
     FooterComponent,
     SidebarComponent,
     AreaComponent,
+    CardComponent,
 
   ],
   imports: [
@@ -40,7 +42,8 @@ import { HighchartsChartModule} from 'highcharts-angular'
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    AreaComponent
+    AreaComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
